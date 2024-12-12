@@ -94,3 +94,20 @@ footer {
     padding: 10px 0;
     margin-top: 20px;
 }
+/* รูปภาพทั่วไป */
+img {
+    max-width: 65%; /* ปรับให้ภาพไม่เกินขนาดของ container */
+    height: auto; /* รักษาอัตราส่วนภาพ */
+    display: block; /* ทำให้ภาพไม่ลอยกับข้อความ */
+    margin: 10px auto; /* จัดให้อยู่ตรงกลาง */
+    border-radius: 10px; /* ทำให้มุมภาพโค้งมน */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้ดูมีมิติ */
+}
+
+/* รูปภาพไฮไลท์ */
+.img-highlight {
+    width: 80%; /* กำหนดให้กว้าง 80% ของ container */
+    margin: 20px auto;
+    border: 2px solid #4CAF50; /* กรอบสีเขียว */
+    border-radius: 15px;
+}

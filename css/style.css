@@ -1,0 +1,113 @@
+/* ตั้งค่าพื้นฐาน */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* ส่วนหัว */
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* เมนูนำทาง */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: #333;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: #4CAF50;
+}
+
+/* เนื้อหาหลัก */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* ฟอร์ม */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #45a049;
+}
+
+/* ส่วนท้าย */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+/* รูปภาพทั่วไป */
+img {
+    max-width: 65%; /* ปรับให้ภาพไม่เกินขนาดของ container */
+    height: auto; /* รักษาอัตราส่วนภาพ */
+    display: block; /* ทำให้ภาพไม่ลอยกับข้อความ */
+    margin: 10px auto; /* จัดให้อยู่ตรงกลาง */
+    border-radius: 10px; /* ทำให้มุมภาพโค้งมน */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้ดูมีมิติ */
+}
+
+/* รูปภาพไฮไลท์ */
+.img-highlight {
+    width: 80%; /* กำหนดให้กว้าง 80% ของ container */
+    margin: 20px auto;
+    border: 2px solid #4CAF50; /* กรอบสีเขียว */
+    border-radius: 15px;
+}
